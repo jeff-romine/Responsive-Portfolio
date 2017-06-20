@@ -278,3 +278,39 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media (max-width: 980px) {
+  /* .main-section { */
+  /*     float: none; */
+  /*     margin: auto; */
+  /*     margin-bottom: 30px; */
+    /* } */
+
+    #masthead {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .container {
+      float: none;
+      margin-bottom: 30px;
+      width: 650px;
+  }
+
+  .sidebar {
+    float: none;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 640px) {
+    
+}
+
