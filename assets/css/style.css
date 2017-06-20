@@ -287,16 +287,18 @@ input[type=submit] {
     }
     
     .container {
-        float: none;
         margin-bottom: 30px;
         width: 650px;
     }
-
+    
+    .main-section {
+        float: none;
+    }
+    
     .sidebar {
         float: none;
         max-width: 650px;
         margin: auto;
-        margin-top: 30px;
     }
 }
 
@@ -328,13 +330,13 @@ input[type=submit] {
     }
 
     nav a {
-        padding: 0;
         text-align: center;
         margin: 0;
         width: 31%;
         color: #999;
         text-decoration: none;
         border-left: 1px solid #efefef;
+        margin: 15px 0;
     }
 
     #masthead {
@@ -357,11 +359,10 @@ input[type=submit] {
     }
     
     .main-section {
-        float: none;
         width: 650px;
         display: block;
         clear: both;
-        margin: 30px auto;
+        margin: 30px auto 30px auto;
     }
 }
 
@@ -394,16 +395,19 @@ input[type=submit] {
         text-decoration: none;
         background: #4aaaa5;
     }
+    .auth-image {
+        float: none;
+        width: 100%;
+    }
     nav {
         margin: 0;
         float: none;
     }
 
     nav a {
-        padding: 0;
         display: inline-block;
         text-align: center;
-        margin: 0;
+        margin: 20px 0;
         width: 31%;
         color: #999;
         text-decoration: none;
@@ -428,6 +432,7 @@ input[type=submit] {
         width: auto;
         float: none;
         margin: 20px;
+        margin-top: 40px;
     }
     .work {
         position: relative;
