@@ -309,6 +309,77 @@ input[type=submit] {
 @media (max-width: 768px) {
     .container {
         display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    #logo {
+        float: none;
+        display: block;
+        margin: 0;
+        width: 100%;
+        height: 90px;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 90px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        background: #4aaaa5;
+    }
+    nav {
+        margin: 0;
+        float: none;
+    }
+
+    nav a {
+        padding: 0;
+        text-align: center;
+        margin: 0;
+        width: 31%;
+        color: #999;
+        text-decoration: none;
+        border-left: 1px solid #efefef;
+    }
+
+    #masthead {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .sidebar {
+        clear: both;
+        max-width: 650px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .wrapper {
+        height: auto !important;
+        height: 100%;
+        min-height: 100%;
+        margin: 0;
+
+    }
+    
+    .main-section {
+        float: none;
+        width: 650px;
+        display: block;
+        clear: both;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 640px) {
+
+    #masthead {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container {
+        display: block;
         float: none;
         width: 100%;
         margin: 0;
@@ -345,11 +416,6 @@ input[type=submit] {
         border-left: 1px solid #efefef;
     }
 
-    #masthead {
-        width: 100%;
-        margin: 0;
-    }
-    
     .sidebar {
         clear: both;
         max-width: 650px;
@@ -361,16 +427,18 @@ input[type=submit] {
         height: 100%;
         min-height: 100%;
         margin: 0;
-
     }
-    .main-section {
+    
+    .main-section,
+    .sidebar {
+        width: auto;
         float: none;
-        margin-top: 30px;
+        margin: 20px;
     }
-    
+    .work {
+        position: relative;
+        float: none;
+        width: 100%;
+        margin: 20px 0 25px;
+    }
 }
-
-@media (max-width: 640px) {
-    
-}
-
